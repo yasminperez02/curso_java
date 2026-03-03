@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Locale;
 
-void main(String[] args) {
+void main() {
 
         Scanner sc = new Scanner(System.in);
         Locale.setDefault(Locale.US);
