@@ -26,4 +26,5 @@ void main() {
     System.out.printf("RETANGULO: %.3f%n",areaRetangulo);
 
     sc.close();
+
 }
