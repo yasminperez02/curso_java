@@ -10,8 +10,10 @@ public class Exercicio3 {
         B = sc.nextInt();
         C = sc.nextInt();
         D = sc.nextInt();
-        diferenca = (A * B - C * D);
+        diferenca = A * B - C * D;
 
         IO.println("DIFERENÇA = " + diferenca);
+
+        sc.close();
     }
 }

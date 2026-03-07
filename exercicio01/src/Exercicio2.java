@@ -13,4 +13,6 @@ void main() {
 
     area = pi * Math.pow(raio, 2.0);
     System.out.printf("A = %.4f", area);
+
+    sc.close();
 }

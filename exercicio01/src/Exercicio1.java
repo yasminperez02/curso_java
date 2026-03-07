@@ -13,5 +13,7 @@ public class Exercicio1 {
 
         System.out.printf("Dados inseridos: %d, %d %n", n1, n2);
         System.out.println("soma = " + resultado);
+
+        sc.close();
     }
 }
