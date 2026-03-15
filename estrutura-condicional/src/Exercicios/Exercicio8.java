@@ -25,7 +25,6 @@ public class Exercicio8 {
         else  {
             imposto = (salario - 4500) * 0.28 + 1500 * 0.18 + 1000 * 0.08;
             System.out.printf("Imposto a pagar: R$%.2f%n", imposto);
-
         }
     }
 }
