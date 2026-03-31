@@ -10,15 +10,15 @@ public class ExercicioRep4 {
 
         double divisao;
         for (int i = 0; i < n; i++) {
-            double a = sc.nextDouble();
-            double b = sc.nextDouble();
+            double num = sc.nextDouble();
+            double denominador = sc.nextDouble();
 
-            if (a % b == 0) {
-                divisao = a / b;
-                System.out.println(divisao); // resolver resolução
+            if (denominador == 0) {
+                System.out.println("Divisão impossivel");
             }
             else {
-                System.out.println("Divisão impossível!");
+                divisao = num / denominador;
+                System.out.println(divisao);
             }
         }
 
