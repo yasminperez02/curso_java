@@ -11,6 +11,8 @@ public class SintaxeFuncao {
 
         int higher = max(a, b, c);
         ShowResult(higher);
+
+        sc.close();
     }
 
     public static int max(int x, int y, int z) {
