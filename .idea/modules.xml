@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/calculoAreaTriangulo/calculoAreaTriangulo.iml" filepath="$PROJECT_DIR$/calculoAreaTriangulo/calculoAreaTriangulo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/construtores-this-sobrecarga-encapsulamento/construtores-this-sobrecarga-encapsulamento.iml" filepath="$PROJECT_DIR$/construtores-this-sobrecarga-encapsulamento/construtores-this-sobrecarga-encapsulamento.iml" />
       <module fileurl="file://$PROJECT_DIR$/course/course.iml" filepath="$PROJECT_DIR$/course/course.iml" />
       <module fileurl="file://$PROJECT_DIR$/curso_java.iml" filepath="$PROJECT_DIR$/curso_java.iml" />
       <module fileurl="file://$PROJECT_DIR$/entrada-de-dados/entrada-de-dados.iml" filepath="$PROJECT_DIR$/entrada-de-dados/entrada-de-dados.iml" />
@@ -10,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/estruturas-repetitivas/estruturas-repetitivas.iml" filepath="$PROJECT_DIR$/estruturas-repetitivas/estruturas-repetitivas.iml" />
       <module fileurl="file://$PROJECT_DIR$/introducao-poo/exercicio-poo/exercicio-poo.iml" filepath="$PROJECT_DIR$/introducao-poo/exercicio-poo/exercicio-poo.iml" />
       <module fileurl="file://$PROJECT_DIR$/exercicio01/exercicio01.iml" filepath="$PROJECT_DIR$/exercicio01/exercicio01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/construtores-this-sobrecarga-encapsulamento/exercicioProduct-atualizado/exercicioProduct-atualizado.iml" filepath="$PROJECT_DIR$/construtores-this-sobrecarga-encapsulamento/exercicioProduct-atualizado/exercicioProduct-atualizado.iml" />
       <module fileurl="file://$PROJECT_DIR$/introducao-poo/introducao-poo.iml" filepath="$PROJECT_DIR$/introducao-poo/introducao-poo.iml" />
       <module fileurl="file://$PROJECT_DIR$/outros-topicos/outros-topicos.iml" filepath="$PROJECT_DIR$/outros-topicos/outros-topicos.iml" />
     </modules>
