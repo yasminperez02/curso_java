@@ -1,10 +1,11 @@
 package entities;
 
 public class Product {
-    public String name;
-    public double price;
-    public int quantity;
+    private String name;
+    private double price;
+    private int quantity;
 
+    // Sobrecarga
     public Product() {
     }
 
@@ -19,6 +20,28 @@ public class Product {
         this.price = price;
     }
 
+    // Encapsulamento setters e getters
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public int getQuantity() {
+        return quantity;
+    }
+
+    //Métodos
     public double totalValueInStock() {
         return price * quantity;
     }
