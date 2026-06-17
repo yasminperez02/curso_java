@@ -6,13 +6,10 @@ public class Account {
     private double saldo;
 
     // Construtor
-    public Account() {
-    }
-
-    public Account(int numero, String titular, double saldo) {
+    public Account(int numero, String titular, double depositoInicial) {
         this.numero = numero;
         this.titular = titular;
-        this.saldo = saldo;
+        deposito(depositoInicial);
     }
 
     public Account(int numero, String titular) {
@@ -48,10 +45,11 @@ public class Account {
     }
 
     public String toString() {
-        return "Dados da conta: " +
-                getNumero() +
-                ", titular:  " +
-                getTitular() +
-                ", saldo: R$ " + String.format("%.2f", getSaldo());
+        return "Dados da conta: "
+                + numero
+                + ", titular:  "
+                + titular
+                + ", saldo: R$ "
+                + String.format("%.2f", saldo);
     }
 }
