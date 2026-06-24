@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/arrays-e-listas/arrays-e-listas.iml" filepath="$PROJECT_DIR$/arrays-e-listas/arrays-e-listas.iml" />
       <module fileurl="file://$PROJECT_DIR$/calculoAreaTriangulo/calculoAreaTriangulo.iml" filepath="$PROJECT_DIR$/calculoAreaTriangulo/calculoAreaTriangulo.iml" />
       <module fileurl="file://$PROJECT_DIR$/construtores-this-sobrecarga-encapsulamento/construtores-this-sobrecarga-encapsulamento.iml" filepath="$PROJECT_DIR$/construtores-this-sobrecarga-encapsulamento/construtores-this-sobrecarga-encapsulamento.iml" />
       <module fileurl="file://$PROJECT_DIR$/course/course.iml" filepath="$PROJECT_DIR$/course/course.iml" />
@@ -15,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/construtores-this-sobrecarga-encapsulamento/exercicioProduct-atualizado/exercicioProduct-atualizado.iml" filepath="$PROJECT_DIR$/construtores-this-sobrecarga-encapsulamento/exercicioProduct-atualizado/exercicioProduct-atualizado.iml" />
       <module fileurl="file://$PROJECT_DIR$/introducao-poo/introducao-poo.iml" filepath="$PROJECT_DIR$/introducao-poo/introducao-poo.iml" />
       <module fileurl="file://$PROJECT_DIR$/outros-topicos/outros-topicos.iml" filepath="$PROJECT_DIR$/outros-topicos/outros-topicos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arrays-e-listas/vetores-part1/vetores-part1.iml" filepath="$PROJECT_DIR$/arrays-e-listas/vetores-part1/vetores-part1.iml" />
     </modules>
   </component>
 </project>
