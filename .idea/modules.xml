@@ -17,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/introducao-poo/introducao-poo.iml" filepath="$PROJECT_DIR$/introducao-poo/introducao-poo.iml" />
       <module fileurl="file://$PROJECT_DIR$/outros-topicos/outros-topicos.iml" filepath="$PROJECT_DIR$/outros-topicos/outros-topicos.iml" />
       <module fileurl="file://$PROJECT_DIR$/arrays-e-listas/vetores-part1/vetores-part1.iml" filepath="$PROJECT_DIR$/arrays-e-listas/vetores-part1/vetores-part1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arrays-e-listas/vetores-part2/vetores-part2.iml" filepath="$PROJECT_DIR$/arrays-e-listas/vetores-part2/vetores-part2.iml" />
     </modules>
   </component>
 </project>
