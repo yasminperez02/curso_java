@@ -1,0 +1,48 @@
+package application;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Program {
+    public static void main(String[] args) {
+        Locale.setDefault(Locale.US);
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Quantas pessoas serão digitadas? ");
+        int n = sc.nextInt();
+
+        String[] nome = new String[n];
+        int[] idade = new int[n];
+        double[] altura = new double[n];
+
+        for (int i=0; i<n; i++) {
+            System.out.printf("Dados da %da pessoa: %n", (i+1));
+            System.out.print("Nome: ");
+            nome[i] = sc.next();
+            System.out.print("Idade: ");
+            idade[i] = sc.nextInt();
+            System.out.print("Altura: ");
+            altura[i] = sc.nextDouble();
+        }
+
+        double media = altura.length / n;
+        System.out.printf("Altura média: %.2f%n", media);
+
+        String[] nomeMenor;
+        int menor = 0;
+        for (int i=0; i< idade.length; i++) {
+            if (idade[i] < 16) {
+                nomeMenor = new String[n];
+                nomeMenor[i] = nome[i];
+                menor++;
+                System.out.println(nomeMenor[i]);
+
+            }
+        }
+
+        double porcentagem = (double) menor / n * 100;
+        System.out.println("Menor: %" + porcentagem);
+
+        sc.close();
+    }
+}
