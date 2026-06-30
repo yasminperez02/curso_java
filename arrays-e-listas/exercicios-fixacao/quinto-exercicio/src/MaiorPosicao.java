@@ -17,9 +17,15 @@ public class MaiorPosicao {
 
         double maiorValor = vetor[0];
         int p = 0;
+        for (int i=0; i< vetor.length; i++) {
+            if (maiorValor < vetor[i]) {
+                maiorValor = vetor[i];
+                p = i;
             }
         }
 
+        System.out.printf("MAIOR VALOR = %.1f\n", maiorValor);
+        System.out.printf("POSIÇÃO DO MAIOR VALOR = %d", p);
 
         sc.close();
     }
