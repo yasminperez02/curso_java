@@ -7,7 +7,7 @@ public class NumerosPares {
         Scanner sc = new Scanner(System.in);
 
         int n, quantidade;
-        int[] vetor, pares;
+        int[] vetor;
 
         System.out.print("Quantos números você vai digitar? ");
         n = sc.nextInt();
@@ -18,31 +18,17 @@ public class NumerosPares {
             vetor[i] = sc.nextInt();
         }
 
-        pares = new int[n];
-        for (int i=0; i < vetor.length; i++) {
-            if (vetor[i] % 2 == 0) {
-                pares[i] = vetor[i];
-            }
-        }
-
         System.out.println("NUMEROS PARES: ");
 
-        for (int i=0; i < pares.length; i++) {
-            if (vetor[i] % 2 == 0) {
-                System.out.printf("%d ", pares[i]);
-            }
-        }
-
-        System.out.println();
-
         quantidade = 0;
-        for (int i=0; i < pares.length; i++) {
+        for (int i=0; i < vetor.length; i++) {
             if (vetor[i] % 2 == 0) {
-                pares[quantidade] = vetor[i];
+                System.out.printf("%d ", vetor[i]);
                 quantidade++;
             }
         }
 
+        System.out.println();
         System.out.println("QUANTIDADE DE PARES = " + quantidade);
 
         sc.close();
