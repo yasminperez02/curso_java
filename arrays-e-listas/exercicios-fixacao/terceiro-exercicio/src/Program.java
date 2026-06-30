@@ -1,5 +1,3 @@
-package application;
-
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -25,23 +23,28 @@ public class Program {
             altura[i] = sc.nextDouble();
         }
 
-        double media = altura.length / n;
-        System.out.printf("Altura média: %.2f%n", media);
+        double media = 0.0;
+        for (int i=0; i< altura.length; i++) {
+            media += altura[i] / n;
+        }
 
-        String[] nomeMenor;
+        String[] nomeMenor = new String[n];
         int menor = 0;
         for (int i=0; i< idade.length; i++) {
             if (idade[i] < 16) {
-                nomeMenor = new String[n];
-                nomeMenor[i] = nome[i];
+                nomeMenor[menor] = nome[i];
                 menor++;
-                System.out.println(nomeMenor[i]);
-
             }
         }
 
         double porcentagem = (double) menor / n * 100;
-        System.out.println("Menor: %" + porcentagem);
+
+        System.out.printf("Altura média: %.2f%n", media);
+        System.out.printf("Pessoas com menos de 16 anos: %.1f%% %n", porcentagem);
+
+        for (int i = 0; i < menor; i++) {
+            System.out.println(nomeMenor[i]);
+        }
 
         sc.close();
     }
