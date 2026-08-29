@@ -4,12 +4,12 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
 public class Client {
+
+    private static DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+
     private String name;
     private String email;
     private LocalDate birthDate;
-
-    DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-
     public Client() {
     }
 

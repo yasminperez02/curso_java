@@ -8,13 +8,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Order {
+
+    private static DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
+
     private LocalDateTime moment;
     private OrderStatus status;
 
-    Client client;
+    private Client client;
     private List<OrderItem> items = new ArrayList<>();
-
-    DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
 
     public Order() {
     }
