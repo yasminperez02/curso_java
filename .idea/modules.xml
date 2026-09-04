@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/arrays-e-listas/boxing-unboxing-wrapper/boxing-unboxing-wrapper.iml" filepath="$PROJECT_DIR$/arrays-e-listas/boxing-unboxing-wrapper/boxing-unboxing-wrapper.iml" />
       <module fileurl="file://$PROJECT_DIR$/calculoAreaTriangulo/calculoAreaTriangulo.iml" filepath="$PROJECT_DIR$/calculoAreaTriangulo/calculoAreaTriangulo.iml" />
       <module fileurl="file://$PROJECT_DIR$/data-hora/calculos-data-hora/calculos-data-hora.iml" filepath="$PROJECT_DIR$/data-hora/calculos-data-hora/calculos-data-hora.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heranca/classe-abstrata/classe-abstrata.iml" filepath="$PROJECT_DIR$/heranca/classe-abstrata/classe-abstrata.iml" />
       <module fileurl="file://$PROJECT_DIR$/construtores-this-sobrecarga-encapsulamento/construtores-this-sobrecarga-encapsulamento.iml" filepath="$PROJECT_DIR$/construtores-this-sobrecarga-encapsulamento/construtores-this-sobrecarga-encapsulamento.iml" />
       <module fileurl="file://$PROJECT_DIR$/course/course.iml" filepath="$PROJECT_DIR$/course/course.iml" />
       <module fileurl="file://$PROJECT_DIR$/curso_java.iml" filepath="$PROJECT_DIR$/curso_java.iml" />
